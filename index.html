@@ -67,6 +67,22 @@
         <p>心あたたまる、猫との時間。</p>
     </header>
 
+    <div id="renewal-notice" style="display:none; background-color: #4caf50; color: white; text-align: center; padding: 10px; font-weight: bold;">
+        🎉 ホームページをリニューアルしました！これからもよろしくお願いいたします 🐱
+    </div>
+    
+    <script>
+        (function() {
+            // ▼ ここで「いつまで表示するか」を決める（今は2026年2月28日までにしてあるよ）
+            var limitDate = new Date("2026-02-28 23:59:59");
+            
+            // 今日の日付と比較して、期限内なら表示する
+            if (new Date() < limitDate) {
+                document.getElementById("renewal-notice").style.display = "block";
+            }
+        })();
+    </script>
+
     <div class="container">
         <section>
             <h2>お店について</h2>
@@ -116,7 +132,7 @@
             </div>
         </section>
 
-<section>
+        <section>
             <h2>利用料金・営業時間のご案内</h2>
             
             <div style="background-color: #fff3e0; padding: 20px; border-radius: 10px; margin-bottom: 20px; text-align: left;">
@@ -134,7 +150,7 @@
                     </tr>
                 </table>
                 <h3 style="color: #ef6c00; font-size: 18px; margin: 0 0 10px 0; border-bottom: 1px dashed #ef6c00; display: inline-block;">🕒 営業時間</h3>
-                <p style="margin-top: 5px; font-weight: bold;; font-size: 20px;">12：00 ～ 19：00（不定休）</p>
+                <p style="margin-top: 5px; font-weight: bold; font-size: 20px;">12：00 ～ 19：00（不定休）</p>
 
                 <h3 style="color: #ef6c00; font-size: 18px; margin: 20px 0 10px 0; border-bottom: 1px dashed #ef6c00; display: inline-block;">🐾 ご来店は【完全予約制】です</h3>
                 <p style="font-size: 14px; margin-bottom: 5px;">
