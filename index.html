@@ -6,46 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>保護ねこカフェ 日向ぼこ</title>
     <style>
-        /* 全体のデザイン設定 */
         body {
             font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
             margin: 0;
             padding: 0;
             color: #5d4037;
-            /* こげ茶色 */
             background-color: #fff8e1;
-            /* クリーム色 */
             line-height: 1.6;
         }
-
-        /* ヘッダー（上の部分） */
         header {
             background-color: #ffa726;
-            /* オレンジ */
             color: white;
             text-align: center;
             padding: 20px 10px;
         }
-
-        header h1 {
-            margin: 0;
-            font-size: 24px;
-        }
-
-        header p {
-            margin: 5px 0 0;
-            font-size: 14px;
-            opacity: 0.9;
-        }
-
-        /* メインコンテンツ */
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        /* セクションごとの枠 */
+        header h1 { margin: 0; font-size: 24px; }
+        header p { margin: 5px 0 0; font-size: 14px; opacity: 0.9; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
         section {
             background: white;
             border-radius: 15px;
@@ -53,16 +30,12 @@
             margin-bottom: 20px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
         }
-
         h2 {
             color: #ef6c00;
-            /* 濃いオレンジ */
             border-bottom: 2px solid #ffe0b2;
             padding-bottom: 10px;
             font-size: 20px;
         }
-
-        /* ボタンのデザイン */
         .btn {
             display: inline-block;
             background-color: #ef6c00;
@@ -73,8 +46,6 @@
             font-weight: bold;
             margin-top: 10px;
         }
-
-        /* 写真ギャラリー（インスタ埋め込み予定地） */
         .instagram-placeholder {
             background-color: #f5f5f5;
             text-align: center;
@@ -82,11 +53,14 @@
             border-radius: 10px;
             color: #888;
         }
+        .map-container iframe {
+            width: 100%;
+            border-radius: 10px;
+        }
     </style>
 </head>
 
 <body>
-
     <header>
         <h1>保護ねこカフェ 日向ぼこ</h1>
         <p>心あたたまる、猫との時間。</p>
@@ -96,17 +70,14 @@
         <section>
             <h2>お店について</h2>
             <p>ここに、お店の紹介文を入れます。猫ちゃんたちと触れ合える癒やしの空間です。</p>
-            <p>※ここは後で竹内さんが書き換えてね！</p>
         </section>
 
         <section>
             <h2>最新の猫ちゃんたち</h2>
             <p>Instagramで毎日更新中！</p>
-
             <div class="instagram-placeholder">
                 ここにインスタの写真がズラッと並びます🐱
             </div>
-
             <div style="text-align: center; margin-top: 15px;">
                 <a href="https://www.instagram.com/" class="btn" target="_blank">Instagramを見る</a>
             </div>
@@ -119,7 +90,7 @@
 
             <div class="map-container">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.42875327828!2d136.53173777583764!3d34.56708687296716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60041b006908efbd%3A0x8686e2879517fec3!2z5L-d6K2344Gt44GT44Kr44OV44KnIOaXpeWQkeOBvOOBkw!5e0!3m2!1sja!2sjp!4v1710000000000!5m2!1sja!2sjp"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.8589322161752!2d136.52766056961445!3d34.56783849828551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60040333246eb451%3A0x6d90d3d5272a2760!2z5L-d6K2344Gt44GT44Kr44OV44KnIOaXp-WQkeOBvOOBkw!5e0!3m2!1sja!2sjp!4v1738283594611!5m2!1sja!2sjp"
                     height="350" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -127,9 +98,7 @@
     </div>
 
     <footer style="text-align: center; padding: 20px; font-size: 12px; color: #888;">
-        &copy; 2026 保護ねこカフェ 日向ぼこ
+        © 2026 保護ねこカフェ 日向ぼこ
     </footer>
-
 </body>
-
 </html>
